@@ -34,6 +34,7 @@ h1 {
 
 h2 {
     font-family: "Alice", serif;
+    color: #4D3E9A;
 }
 
 h3 {
@@ -48,12 +49,28 @@ a {
     width: 25%;
 }
 
+.w36 {
+    width: 36%;
+}
+
 .w50 {
     width: 50%;
 }
 
+.w45 {
+    width: 45%;
+}
+
+.w65 {
+    width: 65%;
+}
+
 .w70 {
     width: 70%;
+}
+
+.w100 {
+    width: 100%;
 }
 
 .bgred {
@@ -68,6 +85,7 @@ header {
     width: 100%;
     padding: 10px 0;
     backdrop-filter: blur(6px);
+    z-index: 3;
 }
 
 header nav {
@@ -96,6 +114,7 @@ header nav {
 
 .sectionHero {
     height: 100vh;
+    position: relative;
 }
 
 
@@ -113,6 +132,57 @@ header nav {
     text-align: center;
 }
 
-.divHero > p {
+.divHero>p {
     font-size: 25px;
+}
+
+/* SECTION SERVICES */
+
+.carteViolette {
+    background-color: #4D3E9A72;
+    display: block;
+    width: 23%;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+.sectionServices {
+    position: relative;
+    top: -30px;
+}
+
+/* SECTION STICKY */
+
+.aside {
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside>p {
+    margin: 0.5rem;
+}
+
+
+.sticky {
+    position: sticky;
+    top: 100px;
+}
+
+.top {
+    margin-top: 25px;
+}
+
+.stikyService {
+    position: relative;
+    top: -30px;
+    background-color: #43368752;
+    backdrop-filter: blur(5px);
+    text-indent: 5%;
+    font-style: italic;
+    padding-top: 10px;
 }
